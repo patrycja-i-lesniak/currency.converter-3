@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.header__text {
+  text-align: center;
+  color: teal;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 70px;
+  margin: 20px;
+}
+
+.score {
+  color: teal;
+}
+
+.footer {
+  padding-top: 50px;
+  text-align: center;
+}
